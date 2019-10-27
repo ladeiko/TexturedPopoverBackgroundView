@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82A1246E0A88B7F0372A765B /* Pods_TexturedPopoverBackgroundDemo_TexturedPopoverBackgroundDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CD452AFBAD1746F2FD8C70 /* Pods_TexturedPopoverBackgroundDemo_TexturedPopoverBackgroundDemoTests.framework */; };
+		846EE25F2365FC3900E55D63 /* TexturedPopoverBackgroundDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE25E2365FC3900E55D63 /* TexturedPopoverBackgroundDemoTests.swift */; };
+		846EE2692365FC5400E55D63 /* TexturedPopoverBackgroundDemoTestsObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EE2682365FC5400E55D63 /* TexturedPopoverBackgroundDemoTestsObjC.m */; };
+		84D99E1623658FD8005AC0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D99E1523658FD8005AC0B0 /* AppDelegate.swift */; };
+		84D99E1823658FD8005AC0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D99E1723658FD8005AC0B0 /* ViewController.swift */; };
+		84D99E1B23658FD8005AC0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D99E1923658FD8005AC0B0 /* Main.storyboard */; };
+		84D99E1D23658FD9005AC0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D99E1C23658FD9005AC0B0 /* Assets.xcassets */; };
+		84D99E2023658FD9005AC0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D99E1E23658FD9005AC0B0 /* LaunchScreen.storyboard */; };
+		ED1B397552E018DF96C91AD2 /* Pods_TexturedPopoverBackgroundDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545B75B06C50C63435282A32 /* Pods_TexturedPopoverBackgroundDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846EE2612365FC3900E55D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D99E0A23658FD8005AC0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D99E1123658FD8005AC0B0;
+			remoteInfo = TexturedPopoverBackgroundDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11C2A5478024B966690B418A /* Pods-TexturedPopoverBackgroundDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TexturedPopoverBackgroundDemo.release.xcconfig"; path = "Target Support Files/Pods-TexturedPopoverBackgroundDemo/Pods-TexturedPopoverBackgroundDemo.release.xcconfig"; sourceTree = "<group>"; };
+		225B45713349F24D9ACD7FC5 /* Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests.release.xcconfig"; path = "Target Support Files/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		53CD452AFBAD1746F2FD8C70 /* Pods_TexturedPopoverBackgroundDemo_TexturedPopoverBackgroundDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TexturedPopoverBackgroundDemo_TexturedPopoverBackgroundDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		545B75B06C50C63435282A32 /* Pods_TexturedPopoverBackgroundDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TexturedPopoverBackgroundDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		846EE25C2365FC3800E55D63 /* TexturedPopoverBackgroundDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexturedPopoverBackgroundDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846EE25E2365FC3900E55D63 /* TexturedPopoverBackgroundDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexturedPopoverBackgroundDemoTests.swift; sourceTree = "<group>"; };
+		846EE2602365FC3900E55D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846EE2662365FC5400E55D63 /* TexturedPopoverBackgroundDemoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TexturedPopoverBackgroundDemoTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		846EE2682365FC5400E55D63 /* TexturedPopoverBackgroundDemoTestsObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TexturedPopoverBackgroundDemoTestsObjC.m; sourceTree = "<group>"; };
+		84D99E1223658FD8005AC0B0 /* TexturedPopoverBackgroundDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TexturedPopoverBackgroundDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D99E1523658FD8005AC0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D99E1723658FD8005AC0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D99E1A23658FD8005AC0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D99E1C23658FD9005AC0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D99E1F23658FD9005AC0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D99E2123658FD9005AC0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82B7003C96B0F11C3DF60FA /* Pods-TexturedPopoverBackgroundDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TexturedPopoverBackgroundDemo.debug.xcconfig"; path = "Target Support Files/Pods-TexturedPopoverBackgroundDemo/Pods-TexturedPopoverBackgroundDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EA93FD18C56EAD64450077BD /* Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846EE2592365FC3800E55D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A1246E0A88B7F0372A765B /* Pods_TexturedPopoverBackgroundDemo_TexturedPopoverBackgroundDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D99E0F23658FD8005AC0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1B397552E018DF96C91AD2 /* Pods_TexturedPopoverBackgroundDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846EE25D2365FC3900E55D63 /* TexturedPopoverBackgroundDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				846EE25E2365FC3900E55D63 /* TexturedPopoverBackgroundDemoTests.swift */,
+				846EE2682365FC5400E55D63 /* TexturedPopoverBackgroundDemoTestsObjC.m */,
+				846EE2602365FC3900E55D63 /* Info.plist */,
+				846EE2662365FC5400E55D63 /* TexturedPopoverBackgroundDemoTests-Bridging-Header.h */,
+			);
+			path = TexturedPopoverBackgroundDemoTests;
+			sourceTree = "<group>";
+		};
+		84D99E0923658FD8005AC0B0 = {
+			isa = PBXGroup;
+			children = (
+				84D99E1423658FD8005AC0B0 /* TexturedPopoverBackgroundDemo */,
+				846EE25D2365FC3900E55D63 /* TexturedPopoverBackgroundDemoTests */,
+				84D99E1323658FD8005AC0B0 /* Products */,
+				9673FE9DE6AE88DB6EEA1F24 /* Pods */,
+				A63B3CE79A63D1558148611A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84D99E1323658FD8005AC0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D99E1223658FD8005AC0B0 /* TexturedPopoverBackgroundDemo.app */,
+				846EE25C2365FC3800E55D63 /* TexturedPopoverBackgroundDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D99E1423658FD8005AC0B0 /* TexturedPopoverBackgroundDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84D99E1523658FD8005AC0B0 /* AppDelegate.swift */,
+				84D99E1723658FD8005AC0B0 /* ViewController.swift */,
+				84D99E1923658FD8005AC0B0 /* Main.storyboard */,
+				84D99E1C23658FD9005AC0B0 /* Assets.xcassets */,
+				84D99E1E23658FD9005AC0B0 /* LaunchScreen.storyboard */,
+				84D99E2123658FD9005AC0B0 /* Info.plist */,
+			);
+			path = TexturedPopoverBackgroundDemo;
+			sourceTree = "<group>";
+		};
+		9673FE9DE6AE88DB6EEA1F24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B82B7003C96B0F11C3DF60FA /* Pods-TexturedPopoverBackgroundDemo.debug.xcconfig */,
+				11C2A5478024B966690B418A /* Pods-TexturedPopoverBackgroundDemo.release.xcconfig */,
+				EA93FD18C56EAD64450077BD /* Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests.debug.xcconfig */,
+				225B45713349F24D9ACD7FC5 /* Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A63B3CE79A63D1558148611A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				545B75B06C50C63435282A32 /* Pods_TexturedPopoverBackgroundDemo.framework */,
+				53CD452AFBAD1746F2FD8C70 /* Pods_TexturedPopoverBackgroundDemo_TexturedPopoverBackgroundDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846EE25B2365FC3800E55D63 /* TexturedPopoverBackgroundDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846EE2652365FC3900E55D63 /* Build configuration list for PBXNativeTarget "TexturedPopoverBackgroundDemoTests" */;
+			buildPhases = (
+				260F41CEC402AA982AF66052 /* [CP] Check Pods Manifest.lock */,
+				846EE2582365FC3800E55D63 /* Sources */,
+				846EE2592365FC3800E55D63 /* Frameworks */,
+				846EE25A2365FC3800E55D63 /* Resources */,
+				D7A818D4EC6BE5088614E49E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846EE2622365FC3900E55D63 /* PBXTargetDependency */,
+			);
+			name = TexturedPopoverBackgroundDemoTests;
+			productName = TexturedPopoverBackgroundDemoTests;
+			productReference = 846EE25C2365FC3800E55D63 /* TexturedPopoverBackgroundDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D99E1123658FD8005AC0B0 /* TexturedPopoverBackgroundDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D99E2423658FD9005AC0B0 /* Build configuration list for PBXNativeTarget "TexturedPopoverBackgroundDemo" */;
+			buildPhases = (
+				78E706AB57D7312E75BB795C /* [CP] Check Pods Manifest.lock */,
+				84D99E0E23658FD8005AC0B0 /* Sources */,
+				84D99E0F23658FD8005AC0B0 /* Frameworks */,
+				84D99E1023658FD8005AC0B0 /* Resources */,
+				3EABFA68CF16DA8BD054C3FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TexturedPopoverBackgroundDemo;
+			productName = TexturedPopoverBackgroundDemo;
+			productReference = 84D99E1223658FD8005AC0B0 /* TexturedPopoverBackgroundDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D99E0A23658FD8005AC0B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Siarhei Ladzeika";
+				TargetAttributes = {
+					846EE25B2365FC3800E55D63 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+						TestTargetID = 84D99E1123658FD8005AC0B0;
+					};
+					84D99E1123658FD8005AC0B0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 84D99E0D23658FD8005AC0B0 /* Build configuration list for PBXProject "TexturedPopoverBackgroundDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D99E0923658FD8005AC0B0;
+			productRefGroup = 84D99E1323658FD8005AC0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D99E1123658FD8005AC0B0 /* TexturedPopoverBackgroundDemo */,
+				846EE25B2365FC3800E55D63 /* TexturedPopoverBackgroundDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846EE25A2365FC3800E55D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D99E1023658FD8005AC0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D99E2023658FD9005AC0B0 /* LaunchScreen.storyboard in Resources */,
+				84D99E1D23658FD9005AC0B0 /* Assets.xcassets in Resources */,
+				84D99E1B23658FD8005AC0B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		260F41CEC402AA982AF66052 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EABFA68CF16DA8BD054C3FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TexturedPopoverBackgroundDemo/Pods-TexturedPopoverBackgroundDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TexturedPopoverBackgroundDemo/Pods-TexturedPopoverBackgroundDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TexturedPopoverBackgroundDemo/Pods-TexturedPopoverBackgroundDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E706AB57D7312E75BB795C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TexturedPopoverBackgroundDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A818D4EC6BE5088614E49E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests/Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846EE2582365FC3800E55D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846EE25F2365FC3900E55D63 /* TexturedPopoverBackgroundDemoTests.swift in Sources */,
+				846EE2692365FC5400E55D63 /* TexturedPopoverBackgroundDemoTestsObjC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D99E0E23658FD8005AC0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D99E1823658FD8005AC0B0 /* ViewController.swift in Sources */,
+				84D99E1623658FD8005AC0B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846EE2622365FC3900E55D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D99E1123658FD8005AC0B0 /* TexturedPopoverBackgroundDemo */;
+			targetProxy = 846EE2612365FC3900E55D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D99E1923658FD8005AC0B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D99E1A23658FD8005AC0B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D99E1E23658FD9005AC0B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D99E1F23658FD9005AC0B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846EE2632365FC3900E55D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA93FD18C56EAD64450077BD /* Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TexturedPopoverBackgroundDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ladeiko.TexturedPopoverBackgroundDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TexturedPopoverBackgroundDemoTests/TexturedPopoverBackgroundDemoTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TexturedPopoverBackgroundDemo.app/TexturedPopoverBackgroundDemo";
+			};
+			name = Debug;
+		};
+		846EE2642365FC3900E55D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225B45713349F24D9ACD7FC5 /* Pods-TexturedPopoverBackgroundDemo-TexturedPopoverBackgroundDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TexturedPopoverBackgroundDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ladeiko.TexturedPopoverBackgroundDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TexturedPopoverBackgroundDemoTests/TexturedPopoverBackgroundDemoTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TexturedPopoverBackgroundDemo.app/TexturedPopoverBackgroundDemo";
+			};
+			name = Release;
+		};
+		84D99E2223658FD9005AC0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D99E2323658FD9005AC0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D99E2523658FD9005AC0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82B7003C96B0F11C3DF60FA /* Pods-TexturedPopoverBackgroundDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TexturedPopoverBackgroundDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ladeiko.TexturedPopoverBackgroundDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D99E2623658FD9005AC0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C2A5478024B966690B418A /* Pods-TexturedPopoverBackgroundDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TexturedPopoverBackgroundDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ladeiko.TexturedPopoverBackgroundDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846EE2652365FC3900E55D63 /* Build configuration list for PBXNativeTarget "TexturedPopoverBackgroundDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846EE2632365FC3900E55D63 /* Debug */,
+				846EE2642365FC3900E55D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D99E0D23658FD8005AC0B0 /* Build configuration list for PBXProject "TexturedPopoverBackgroundDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D99E2223658FD9005AC0B0 /* Debug */,
+				84D99E2323658FD9005AC0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D99E2423658FD9005AC0B0 /* Build configuration list for PBXNativeTarget "TexturedPopoverBackgroundDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D99E2523658FD9005AC0B0 /* Debug */,
+				84D99E2623658FD9005AC0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D99E0A23658FD8005AC0B0 /* Project object */;
+}

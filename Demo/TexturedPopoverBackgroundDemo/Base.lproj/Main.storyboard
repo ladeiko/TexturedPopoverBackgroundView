@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TexturedPopoverBackgroundDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap anywhere on screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZkI-a0-mmE">
+                                <rect key="frame" x="412" y="373.5" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="deQ-rK-5ES"/>
+                                    <constraint firstAttribute="height" constant="21" id="wlP-ZP-wcF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IHk-Lj-rOh">
+                                <rect key="frame" x="702" y="20" width="51" height="31"/>
+                                <connections>
+                                    <action selector="borderedDidChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="SmD-hA-zwP"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="With border" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYN-IW-a7L">
+                                <rect key="frame" x="606" y="25" width="91" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="Kc9-8m-QZD"/>
+                                    <constraint firstAttribute="height" constant="21" id="XEX-BR-zc8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IHk-Lj-rOh" firstAttribute="leading" secondItem="lYN-IW-a7L" secondAttribute="trailing" constant="5" id="9cu-79-AMv"/>
+                            <constraint firstItem="ZkI-a0-mmE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dch-tq-tt9"/>
+                            <constraint firstItem="IHk-Lj-rOh" firstAttribute="centerY" secondItem="lYN-IW-a7L" secondAttribute="centerY" id="jOz-tb-c5c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IHk-Lj-rOh" secondAttribute="trailing" constant="273" id="jip-oQ-I2j"/>
+                            <constraint firstItem="ZkI-a0-mmE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="o8o-G4-pl8"/>
+                            <constraint firstItem="IHk-Lj-rOh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sTe-Ys-0bh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="borderedSwitch" destination="IHk-Lj-rOh" id="dUb-i8-BPW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.8671875" y="81.25"/>
+        </scene>
+    </scenes>
+</document>
