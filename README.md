@@ -1,3 +1,8 @@
+[![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?colorA=28a745&colorB=4E4E4E)](https://img.shields.io/badge/Platform-iOS-lightgrey.svg?colorA=28a745&colorB=4E4E4E)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/TexturedPopoverBackgroundView.svg?style=flat&label=CocoaPods&colorA=28a745&&colorB=4E4E4E)](https://cocoapods.org/pods/TexturedPopoverBackgroundView)
+[![Swift support](https://img.shields.io/badge/Swift-4.0%20%7C%204.2%20%7C%205.0%20%7C%205.1-lightgrey.svg?colorA=28a745&colorB=4E4E4E)](#swift-versions-support)
+[![Build Status](https://travis-ci.org/ladeiko/TexturedPopoverBackgroundView.svg?branch=master)](https://travis-ci.org/ladeiko/TexturedPopoverBackgroundView)
+
 # TexturedPopoverBackgroundView
 
 Variant of TexturedPopoverBackgroundView UIPopoverBackgroundView which supports textured background, rouned corners, etc.
