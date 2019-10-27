@@ -29,14 +29,14 @@ class ViewController: UIViewController {
         TexturedPopoverBackgroundView.setBorderColor(.green)
         TexturedPopoverBackgroundView.setBorderWidth(1)
         TexturedPopoverBackgroundView.setBackgroundImageGetter { UIImage(named: "popover-bg")! }
-	 }
+    }
 	
     override func viewDidLoad() {
         super.viewDidLoad()
         customize()
     }
     
-	func showMyControllerAsPopover() {
+    func showMyControllerAsPopover() {
 		
         let rect: CGRect = .zero
 
